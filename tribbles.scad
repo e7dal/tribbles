@@ -1,7 +1,7 @@
 include <cloop_recursive.scad>;
 show_text=false;
-show_text=true;
-//include <viewport_t.scad>;
+//show_text=true;
+include <viewport_t.scad>;
 demo_vpt=false;
 //demo_vpt=true;
 
@@ -37,11 +37,11 @@ tl=[LG,HA,LG,HA,LG,HG,
     ];
 
 //almost ring, rotated, does not close
-tl=[LG,HM,LG,HH,LG,HA,
-    LG,HM,LG,HH,LG,HA,
-    LG,HM,LG,HH,LG,HA,
-    LG,HM,LG,HH,LG,HA
-    ];
+//tl=[LG,HM,LG,HH,LG,HA,
+//    LG,HM,LG,HH,LG,HA,
+//    LG,HM,LG,HH,LG,HA,
+//    LG,HM,LG,HH,LG,HA
+//    ];
 
     
 
